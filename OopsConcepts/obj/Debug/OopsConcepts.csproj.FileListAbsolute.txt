@@ -1,0 +1,7 @@
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\OopsConcepts\bin\Debug\OopsConcepts.exe.config
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\OopsConcepts\bin\Debug\OopsConcepts.exe
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\OopsConcepts\bin\Debug\OopsConcepts.pdb
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\OopsConcepts\obj\Debug\OopsConcepts.csproj.CoreCompileInputs.cache
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\OopsConcepts\obj\Debug\OopsConcepts.exe
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\OopsConcepts\obj\Debug\OopsConcepts.pdb
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\OopsConcepts\obj\Debug\OopsConcepts.csprojResolveAssemblyReference.cache

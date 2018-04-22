@@ -1,0 +1,7 @@
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Interviews\bin\Debug\Interviews.exe.config
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Interviews\bin\Debug\Interviews.exe
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Interviews\bin\Debug\Interviews.pdb
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Interviews\obj\Debug\Interviews.csprojResolveAssemblyReference.cache
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Interviews\obj\Debug\Interviews.csproj.CoreCompileInputs.cache
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Interviews\obj\Debug\Interviews.exe
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Interviews\obj\Debug\Interviews.pdb

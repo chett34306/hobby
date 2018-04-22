@@ -1,0 +1,7 @@
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\DataStructures\bin\Debug\DataStructures.exe.config
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\DataStructures\bin\Debug\DataStructures.exe
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\DataStructures\bin\Debug\DataStructures.pdb
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\DataStructures\obj\Debug\DataStructures.csprojResolveAssemblyReference.cache
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\DataStructures\obj\Debug\DataStructures.csproj.CoreCompileInputs.cache
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\DataStructures\obj\Debug\DataStructures.exe
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\DataStructures\obj\Debug\DataStructures.pdb

@@ -1,0 +1,7 @@
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Games\bin\Debug\Games.exe.config
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Games\bin\Debug\Games.exe
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Games\bin\Debug\Games.pdb
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Games\obj\Debug\Games.csprojResolveAssemblyReference.cache
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Games\obj\Debug\Games.csproj.CoreCompileInputs.cache
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Games\obj\Debug\Games.exe
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Games\obj\Debug\Games.pdb

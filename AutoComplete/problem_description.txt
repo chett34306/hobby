@@ -1,0 +1,26 @@
+Coding Question - AutoComplete
+
+In this exercise we consider the problem of autocomplete: given a word prefix and an integer k, find the most frequent k words in the set that start with the prefix.
+
+Here is an illustration of autocomplete in a search bar of a web page:
+https://en.wikipedia.org/wiki/Autocomplete#/media/File:Autocomplete_Mozilla_Firefox_23_-_Wikipedia_de_search.png
+
+Write a command-line tool, which implements autocomplete that can be invoked in the following way:
+
+autocomplete <word_frequencies> <sample_input> <k> <sample_output>
+
+Arguments:
+
+- word_frequencies: file containing pairs of words and their frequency, each on a separate line. See words.txt for an example.
+- sample_input: input file containing the prefixes that need to be autocompleted. See sample_input.txt for an example.
+- k: integer parameter for the number of suggestions for each prefix from the input. For example for k=5 the tool should return the top 5 most frequent words for each prefix.
+- sample_output: Name of a file to write the result to. The result should contain the top k frequent word for each prefix in the input file. See sample_output.txt for an example run of the tool for the example input and k=5.
+
+
+Requirements:
+
+- You have 1 hours to finish this coding question. Please send us what you have by the end of the first hour. You can use an extra hour for fixes and improvements.
+- Your code should be robust and gracefully handle incorrectly supplied arguments.
+- There is no restriction on the programming language used.
+- Please submit your code along with a short README file of how to compile and run the program.
+
