@@ -5,7 +5,7 @@ C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\Se
 C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\SeleniumDemo\bin\Debug\WebDriver.Support.dll
 C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\SeleniumDemo\bin\Debug\WebDriver.xml
 C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\SeleniumDemo\bin\Debug\WebDriver.Support.xml
-C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\SeleniumDemo\obj\Debug\SeleniumDemo.csprojResolveAssemblyReference.cache
 C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\SeleniumDemo\obj\Debug\SeleniumDemo.csproj.CoreCompileInputs.cache
 C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\SeleniumDemo\obj\Debug\SeleniumDemo.exe
 C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\SeleniumDemo\obj\Debug\SeleniumDemo.pdb
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\SeleniumDemo\obj\Debug\SeleniumDemo.csprojResolveAssemblyReference.cache
