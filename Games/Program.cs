@@ -10,12 +10,63 @@ namespace Games
 	{
 		static void Main(string[] args)
 		{
+			PlayTicTacToe();
 			
 			//https://www.hackerrank.com/challenges/an-interesting-game-1/problem
-			int[] arr = new int[] { 5, 2, 6, 3 };
-			int ret = gamingArray(arr);
+			//int[] arr = new int[] { 5, 2, 6, 3 };
+			//int ret = gamingArray(arr);
 		}
 
+		static void PlayTicTacToe()
+		{
+			TicTacToe.InitializeGameBoard();
+			TicTacToe.InitializePlayers(0, 1);
+			TicTacToe.ShowGameBoard();
+			int playerTrack = 1; //Who should play. let's start with player1
+			while (TicTacToe.totalMoves < TicTacToe.boardInit.Length)
+			{
+				if (playerTrack == 1)
+				{
+					Console.WriteLine("Player1 playing...");
+					playerTrack = 2;
+					TicTacToe.Player1Move();
+					TicTacToe.ShowGameBoard();
+					int win = TicTacToe.CheckWinBoard();
+					if (win == TicTacToe.player1)
+					{
+						Console.WriteLine("Player1 is the winner");
+						TicTacToe.ShowWinBoard();
+						break;
+					}
+					if (TicTacToe.CheckDrawBoard())
+					{
+						Console.WriteLine("Board is a draw...Play again");
+						TicTacToe.ShowDrawBoard();
+						break;
+					}
+				}
+				else if (playerTrack == 2)
+				{
+					Console.WriteLine("Player2 playing...");
+					playerTrack = 1;
+					TicTacToe.Player2Move();
+					TicTacToe.ShowGameBoard();
+					int win = TicTacToe.CheckWinBoard();
+					if (win == TicTacToe.player1)
+					{
+						Console.WriteLine("Player1 is the winner");
+						TicTacToe.ShowWinBoard();
+						break;
+					}
+					if (TicTacToe.CheckDrawBoard())
+					{
+						Console.WriteLine("Board is a draw...Play again");
+						TicTacToe.ShowDrawBoard();
+						break;
+					}
+				}
+			}
+		}
 		static int gamingArray(int[] arr)
 		{
 			/*
