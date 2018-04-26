@@ -11,6 +11,8 @@ namespace Games
 		public static int[] boardInit = new int[9];
 		public static int player1;
 		public static int player2;
+		public static string player1Name;
+		public static string player2Name;
 		public static Dictionary<int, int> boardValues = new Dictionary<int, int>();
 		public static int totalMoves = 0;
 		public static void ShowGameBoard()
@@ -24,6 +26,7 @@ namespace Games
 
 		public static void InitializeGameBoard()
 		{
+			Console.WriteLine("*******Welcome to TIC-TAC-TOE Game********");
 			//It's easier with int[] to calcualte win/lose
 			for (int i = 0; i < boardInit.Length; i++)
 			{
@@ -46,6 +49,11 @@ namespace Games
 			if (playerrep2 < 0 && playerrep2 > 1) return;
 			player1 = playerrep1;
 			player2 = playerrep2;
+			Console.WriteLine("Starting a new game with 2 new players");
+			Console.WriteLine("Enter player1 name:");
+			player1Name = Console.ReadLine();
+			Console.WriteLine("Enter player2 name:");
+			player2Name = Console.ReadLine();
 		}
 
 		public static void ShowWinBoard()
@@ -124,7 +132,9 @@ namespace Games
 		public static void Player1Move()
 		{
 			Console.WriteLine("Choose the move location from 0 - 8:");
-			int x = Int32.Parse(Console.ReadLine());
+			int x;
+			while (!int.TryParse(Console.ReadLine(), out x) || !(x >= 0 && x <= 8))
+				Console.WriteLine("The value must be of integer type between 0 - 8");
 			while (x >=0 && x <=8)
 			{
 				if (boardInit[x] == -1)
@@ -145,7 +155,9 @@ namespace Games
 		public static void Player2Move()
 		{
 			Console.WriteLine("Choose the move location from 0 - 8:");
-			int x = Int32.Parse(Console.ReadLine());
+			int x;
+			while (!int.TryParse(Console.ReadLine(), out x) && !(x >= 0 && x <= 8))
+				Console.WriteLine("The value must be of integer type between 0 - 8");
 			while (x >= 0 && x <= 8)
 			{
 				if (boardInit[x] == -1)

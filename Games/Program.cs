@@ -10,13 +10,24 @@ namespace Games
 	{
 		static void Main(string[] args)
 		{
-			PlayTicTacToe();
+			StartTicTacToe();
 			
 			//https://www.hackerrank.com/challenges/an-interesting-game-1/problem
 			//int[] arr = new int[] { 5, 2, 6, 3 };
 			//int ret = gamingArray(arr);
 		}
 
+		static void StartTicTacToe()
+		{
+			Console.Write("Do you want to start a new TicTacToe game, use Yes/yes/Y/y/No/no/N/n:");
+			string input = Console.ReadLine();
+			while (input.ToLower() == "yes" || input.ToLower() == "y")
+			{
+				PlayTicTacToe();
+				Console.Write("Do you want to start a new game Yes/yes/Y/y/No/no/N/n:");
+				input = Console.ReadLine();
+			}
+		}
 		static void PlayTicTacToe()
 		{
 			TicTacToe.InitializeGameBoard();
@@ -27,14 +38,14 @@ namespace Games
 			{
 				if (playerTrack == 1)
 				{
-					Console.WriteLine("Player1 playing...");
+					Console.WriteLine("{0} playing...", TicTacToe.player1Name);
 					playerTrack = 2;
 					TicTacToe.Player1Move();
 					TicTacToe.ShowGameBoard();
 					int win = TicTacToe.CheckWinBoard();
 					if (win == TicTacToe.player1)
 					{
-						Console.WriteLine("Player1 is the winner");
+						Console.WriteLine("********{0} is the WINNER********", TicTacToe.player1Name);
 						TicTacToe.ShowWinBoard();
 						break;
 					}
@@ -47,14 +58,14 @@ namespace Games
 				}
 				else if (playerTrack == 2)
 				{
-					Console.WriteLine("Player2 playing...");
+					Console.WriteLine("{0} playing...", TicTacToe.player2Name);
 					playerTrack = 1;
 					TicTacToe.Player2Move();
 					TicTacToe.ShowGameBoard();
 					int win = TicTacToe.CheckWinBoard();
-					if (win == TicTacToe.player1)
+					if (win == TicTacToe.player2)
 					{
-						Console.WriteLine("Player1 is the winner");
+						Console.WriteLine("********{0} is the WINNER********", TicTacToe.player2Name);
 						TicTacToe.ShowWinBoard();
 						break;
 					}
