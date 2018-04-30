@@ -1,0 +1,7 @@
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\ECommerce\obj\Debug\ECommerce.csprojResolveAssemblyReference.cache
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\ECommerce\obj\Debug\ECommerce.csproj.CoreCompileInputs.cache
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\ECommerce\bin\Debug\ECommerce.exe.config
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\ECommerce\bin\Debug\ECommerce.exe
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\ECommerce\bin\Debug\ECommerce.pdb
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\ECommerce\obj\Debug\ECommerce.exe
+C:\Users\pchettypally\Documents\Visual Studio 2017\Projects\InterviewPractice\ECommerce\obj\Debug\ECommerce.pdb
