@@ -12,7 +12,7 @@ namespace SeleniumDemo
 	{
 		static void Main(string[] args)
 		{
-			string domainURL = "http://www.starbucks.com"; // "https://houze360.com";//"http://www.cnbc.com"; // "http://www.facebook.com"; //;
+			string domainURL = "http://www.equityzen.com"; // "http://www.starbucks.com"; // "https://houze360.com";//"http://www.cnbc.com"; // "http://www.facebook.com"; //;
 			WebCrawler.SimpleWebCrawler(domainURL);
 		}
 		

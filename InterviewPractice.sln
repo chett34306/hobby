@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interviews", "Interviews\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoComplete", "AutoComplete\AutoComplete.csproj", "{B0B8AEB6-F175-4263-BD12-BA6DF6540309}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce", "ECommerce\ECommerce.csproj", "{FF16F298-F369-4618-8588-265CCEB2EC53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B0B8AEB6-F175-4263-BD12-BA6DF6540309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0B8AEB6-F175-4263-BD12-BA6DF6540309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0B8AEB6-F175-4263-BD12-BA6DF6540309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF16F298-F369-4618-8588-265CCEB2EC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF16F298-F369-4618-8588-265CCEB2EC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF16F298-F369-4618-8588-265CCEB2EC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF16F298-F369-4618-8588-265CCEB2EC53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

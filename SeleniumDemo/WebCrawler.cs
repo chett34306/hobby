@@ -5,13 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Chrome;
+
 using System.Net;
 
 namespace SeleniumDemo
 {
 	static class WebCrawler
 	{
-		public static IWebDriver driver = new FirefoxDriver();
+		public static IWebDriver driver = new ChromeDriver(); //FirefoxDriver();
 		public static List<Tuple<string, bool, string, DateTime>> urls = new List<Tuple<string, bool, string, DateTime>>();
 		public static string justDomain;
 		public static int visitedUrlCounter = 0;

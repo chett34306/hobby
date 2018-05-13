@@ -23,11 +23,41 @@ namespace Interviews
 			//string validinvalid = ValidInvalid("aabcc");	   //Sherlock and the Valid String @ https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem
 			//int retVal = digitSum("12", 2); //https://www.hackerrank.com/challenges/recursive-digit-sum/problem
 			//indicesofarraytogetasum();//https://www.hackerrank.com/challenges/icecream-parlor/problem
-			AutoComplete(args); //via datometry
-			//BoxOnSite box = new BoxOnSite();
-			
+			//AutoComplete(args); //via datometry
+								//BoxOnSite box = new BoxOnSite();
+			MinimumLoss(); //https://www.hackerrank.com/challenges/minimum-loss/problem
+
 		}
 
+		static void MinimumLoss()
+		{
+			int minLoss = Int32.MaxValue;
+			long[] price = new long[] { 20, 7, 8, 2, 5 };
+			minLoss = minimumLoss(price);
+			Console.WriteLine("Minimum loss: {0}", minLoss);
+		}
+
+		public static int minimumLoss(long[] price)
+		{
+			// Complete this function
+			int min = Int32.MaxValue;
+			for (int i = 0; i < price.Length - 1; i++)
+			{
+				for (int j = i + 1; j < price.Length; j++)
+				{
+					if (price[i] > price[j])
+					{
+						long delta = price[i] - price[j];
+						if (delta < min)
+						{
+							min = (int)delta;
+						}
+					}
+				}
+			}
+
+			return min;
+		}
 		static void indicesofarraytogetasum()
 		{
 			int m = 4; //money pooled  by two people
