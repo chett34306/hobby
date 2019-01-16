@@ -5,4 +5,4 @@ ensure node.js is installed locally.
 do on cmd prompt, node main.js and notice server started locally.
 hit the http://127.0.0.1:8081/ to see "hello world!" on the browser
 
-Woo.hooo...you have your first node.js web server running.
+Woo.hooo...you have your first node.js web server running. Voila!!!
