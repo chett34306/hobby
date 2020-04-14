@@ -1,0 +1,5 @@
+https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm
+
+Now try to access defined API using URL: http://127.0.0.1:8081/listUsers and HTTP Method : GET on local machine using any REST client. This should produce following result -
+
+You can change given IP address when you will put the solution in production environment.
