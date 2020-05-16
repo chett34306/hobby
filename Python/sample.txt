@@ -1,0 +1,4 @@
+Given sentence is: 
+ Hello, This is my first program to use google text to speech api
+Total number of words in a given sentence is12
+'Hello,' Word is occuring 1 times'This' Word is occuring 1 times'is' Word is occuring 1 times'my' Word is occuring 1 times'first' Word is occuring 1 times'program' Word is occuring 1 times'to' Word is occuring 2 times'use' Word is occuring 1 times'google' Word is occuring 1 times'text' Word is occuring 1 times'speech' Word is occuring 1 times'api' Word is occuring 1 times
