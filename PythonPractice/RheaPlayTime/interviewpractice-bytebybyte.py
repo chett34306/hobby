@@ -202,7 +202,7 @@ def FactorialOfANumberLoop(n):
 #print("Factorial of a number with loop:" + str(FactorialOfANumberLoop(5)))
 print("Factorial of a number recursively:" + str(FactorialOfANumberRecursively(7)))
 
-# ZeroSumSubarray()
+ZeroSumSubarray()
 
 # SmallestChange()
 # FindTwoMissingNumbers()
