@@ -12,10 +12,6 @@ namespace DataStructures
 		{
 			//Quick Sort
 			qSort();
-			
-
-
-
 		}
 
 		static void qSort()
